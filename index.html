@@ -30,9 +30,9 @@
           </div>
           <div>Age:</div>
           <div>
-            <select name="age_field[]">
-              <option value="u" selected>under 18</option>
-              <option value="o">over 18</option>
+            <select name="age_field">
+              <option>under 18</option>
+              <option>over 18</option>
             </select>
           </div>
       </fieldset>
@@ -41,30 +41,31 @@
           <h3>Days Available:</h3>
           <div>
             <div>
-              <label>Sunday <input type="checkbox" name="checkbox_field[]" value="sunday"></label>
+              <label>Sunday <input type="checkbox" name="available_field[]" value="sunday"></label>
             </div>
             <div>
-              <label>Monday <input type="checkbox" name="checkbox_field[]" value="monday"></label>
+              <label>Monday <input type="checkbox" name="available_field[]" value="monday"></label>
             </div>
             <div>  
-              <label>Tuesday <input type="checkbox" name="checkbox_field[]" value="tuesday"></label>
+              <label>Tuesday <input type="checkbox" name="available_field[]" value="tuesday"></label>
             </div>
             <div>  
-              <label>Wednesday <input type="checkbox" name="checkbox_field[]" value="wednesday"></label>
+              <label>Wednesday <input type="checkbox" name="available_field[]" value="wednesday"></label>
             </div>
             <div>  
-              <label>Thursday <input type="checkbox" name="checkbox_field[]" value="thursday"></label>
+              <label>Thursday <input type="checkbox" name="available_field[]" value="thursday"></label>
             </div>
             <div>  
-              <label>Friday <input type="checkbox" name="checkbox_field[]" value="friday"></label>
+              <label>Friday <input type="checkbox" name="available_field[]" value="friday"></label>
             </div>
             <div>  
-              <label>Saturday <input type="checkbox" name="checkbox_field[]" value="saturday"></label>
+              <label>Saturday <input type="checkbox" name="available_field[]" value="saturday"></label>
             </div>
             <h3>Comments</h3>
             <textarea name="comments_field"></textarea>
           </div>
       </fieldset>
+      <input type="hidden" name="hidden_field" value="Kamni_Achraf">
       <input type="submit">
     </form>
   </body>
